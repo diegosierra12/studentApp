@@ -3,10 +3,10 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="test.CreateStudentPosIT">
+      <class name="test.ListStudentGetIT">
         <methods>
           <include name="springTestContextBeforeTestClass"/>
-          <include name="createStudent"/>
+          <include name="listStudentFull"/>
           <include name="afterSuite"/>
           <include name="springTestContextPrepareTestInstance"/>
           <include name="springTestContextAfterTestClass"/>
@@ -14,7 +14,7 @@
           <include name="springTestContextAfterTestMethod"/>
           <include name="beforeSuite"/>
         </methods>
-      </class> <!-- test.CreateStudentPosIT -->
+      </class> <!-- test.ListStudentGetIT -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

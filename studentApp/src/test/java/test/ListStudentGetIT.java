@@ -30,7 +30,7 @@ public class ListStudentGetIT extends TestNGCitrusTestDesigner {
 	//Test para generar JSON con un estudiante según ID.
 	@CitrusTest
 	public void listOneStudent() {
-		http().client(EndPointStudent()).send().get("/101").payload("");
+		http().client(EndPointStudent()).send().get("/100").payload("");
 	}
 
 	//Test para generar JSON con todos los estudiantes que tengan programa Computer Science

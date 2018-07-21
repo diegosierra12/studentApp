@@ -21,10 +21,10 @@ public class DeleteStudent extends TestNGCitrusTestDesigner{
 	}
 	
 	@CitrusTest
-    public void deleteEmail() {
+    public void deleteStudent() {
         http().client(EndPointStudent())
                 .send()
-                .delete("/student/104")
+                .delete("/student/99")
                 .payload("");
     }
 

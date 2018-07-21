@@ -28,7 +28,7 @@ public class UpdateStudentPutIT extends TestNGCitrusTestDesigner{
     public void updateStudent() {
         http().client(EndPointStudent())
                 .send()
-                .put("/student/104")
+                .put("/student/100")
                 .messageType(MessageType.JSON)
                 .contentType(ContentType.APPLICATION_JSON.getMimeType())
                 .payload(new ClassPathResource("/templates/UpdateStudent.json"));

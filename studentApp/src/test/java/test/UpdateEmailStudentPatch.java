@@ -27,7 +27,7 @@ public class UpdateEmailStudentPatch extends TestNGCitrusTestDesigner{
     public void updateEmail() {
         http().client(EndPointStudent())
                 .send()
-                .patch("/student/104")
+                .patch("/student/100")
                 .messageType(MessageType.JSON)
                 .contentType(ContentType.APPLICATION_JSON.getMimeType())
                 .payload(new ClassPathResource("/templates/UpdateStudent.json"));
